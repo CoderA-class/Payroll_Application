@@ -5,6 +5,7 @@ public class Position {
 
     private String positionCode;
     private PositionStatus status;
+    private Employee employee;
 
 
     public Position() {}
@@ -20,7 +21,7 @@ public class Position {
     public PositionStatus getStatus() { return status; }
     public void setStatus(PositionStatus status) { this.status = status; }
 
-    public Employee getEmployee() { return employee; }
+    public Employee getEmployee() { return getEmployee(); }
     public void setEmployee(Employee employee) { this.employee = employee; }
 
 }
